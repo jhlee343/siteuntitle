@@ -8,7 +8,9 @@ function login(){
         location.href='main.html';
     }
 }
-
+function back(){
+    location.href='login.html'
+}
 function createID(){
     var id = document.querySelector('#id');
     var pw = document.querySelector('#pw');
@@ -25,4 +27,10 @@ function createID(){
             location.href='login.html'
         }
     }
+}
+function moveJoin(){
+    location.href='join.html';
+}
+function btnAlert(){
+    alert("Login First Plz")
 }

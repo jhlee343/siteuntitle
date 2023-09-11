@@ -7,6 +7,20 @@
     <script src = common.js></script>
 </head>
 <body>
+<div class="navbar">
+    <ul id ="main">
+        <a href="#" id="logo">
+            <img src="logo1.png" width="50">
+        </a>
+        <li><a href="home.html">ReMo</a> </li>
+    </ul>
+    <ul id="menu">
+        <li><a href="#">search</a></li>
+        <li><button onclick="btnAlert()">addList</button></li>
+        <li><button onclick="btnAlert()">logout</button></li>
+    </ul>
+</div>
+<div class="login-wrapper"></div>
 <div class="login-wrapper">
     <h2>Login</h2>
     <form method="post" action="서버의url" id="login-form">
@@ -16,6 +30,7 @@
             <input type="checkbox" id="remember-check"> Remember ID
         </label>
         <input type="submit" value="Login">
+        <input type="button" value="Create ID" onclick="moveJoin()">
     </form>
 </div>
 </body>
