@@ -34,3 +34,7 @@ function moveJoin(){
 function btnAlert(){
     alert("Login First Plz")
 }
+
+function moveSearch(){
+    location.href='Search.html';
+}

@@ -2,6 +2,7 @@
     padding: 60;
     margin: 50;
     border: none;
+    background-color: white;
 }
 .navbar{
     height: 60px;
@@ -27,7 +28,7 @@
     line-height: 60px;
 }
 
-.navbar #main li a {
+.navbar #main li button {
     text-decoration: none;
     color: #545454 ;
     font-size: 19px;
@@ -46,7 +47,7 @@
     line-height: 60px;
 }
 
-.navbar #menu li a {
+.navbar #menu li button {
     text-decoration: none;
     color: #545454 ;
     font-size: 13px;
@@ -57,13 +58,32 @@ body{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 }
-.login-wrapper{
+.first{
+    border: 1px solid ;
     float: left;
-    width: 500px;
-    height: 550px;
-    padding: 40px;
+    width:30%;
+    box-sizing: border-box;
+}
+.third{
+    border: 1px solid ;
+    float: right;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.login-wrapper{
+    border-top: black;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3%;
+    width:30%;
     box-sizing: border-box;
     align-content: center;
+    width: 450px;
+    height: 550px;
+    /*padding: 40px;*/
+    box-sizing: border-box;
+
 }
 
 .login-wrapper > h2{

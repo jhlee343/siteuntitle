@@ -15,12 +15,12 @@
         <li><a href="home.html">ReMo</a> </li>
     </ul>
     <ul id="menu">
-        <li><a href="#">search</a></li>
+        <li><button onclick="btnAlert()">search</button></li>
         <li><button onclick="btnAlert()">addList</button></li>
-        <li><button onclick="btnAlert()">logout</button></li>
+        <li><button onclick="btnAlert()" class="delbtn">logout</button></li>
     </ul>
 </div>
-<div class="login-wrapper"></div>
+<div class="first"></div>
 <div class="login-wrapper">
     <h2>Login</h2>
     <form method="post" action="서버의url" id="login-form">
@@ -33,5 +33,6 @@
         <input type="button" value="Create ID" onclick="moveJoin()">
     </form>
 </div>
+<div class="third"></div>
 </body>
 </html>
