@@ -64,12 +64,7 @@ body{
     width:30%;
     box-sizing: border-box;
 }
-.third{
-    border: 1px solid ;
-    float: right;
-    width:30%;
-    box-sizing: border-box;
-}
+
 
 .login-wrapper{
     border-top: black;
@@ -127,4 +122,11 @@ body{
     background-image: url("checkbox-active.png");
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.third{
+    border: 1px solid ;
+    float: right;
+    width:30%;
+    box-sizing: border-box;
 }

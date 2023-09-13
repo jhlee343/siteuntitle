@@ -5,7 +5,7 @@ function login(){
         alert("로그인 할 수 없습니다.")
     }
     else {
-        location.href='main.html';
+        location.href='home.html';
     }
 }
 function back(){

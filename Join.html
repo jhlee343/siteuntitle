@@ -9,8 +9,21 @@
     </style>
 </head>
 <body>
+<div class="navbar">
+    <ul id ="main">
+        <a href="#" id="logo">
+            <img src="logo1.png" width="50">
+        </a>
+        <li><a href="home.html">ReMo</a> </li>
+    </ul>
+    <ul id="menu">
+        <li><button onclick="btnAlert()">search</button></li>
+        <li><button onclick="btnAlert()">addList</button></li>
+        <li><button onclick="btnAlert()" class="delbtn">logout</button></li>
+    </ul>
+</div>
+<div class = Create>
     <h2>Create ID</h2>
-  <div>
     <label> id: <input id="id" type="text"> </label>
   </div>
   <div>
@@ -22,6 +35,6 @@
 <div> <input type="button" value="Back" onclick="back()">
     <input type="button" value ="login" onclick="createID()">
 </div>
-
+</div>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="login.css"></link>
     <meta charset="UTF-8">
     <title>Login</title>
-    <script src = common.js></script>
+    <script src = ./common.js></script>
 </head>
 <body>
 <div class="navbar">
@@ -20,19 +20,22 @@
         <li><button onclick="btnAlert()" class="delbtn">logout</button></li>
     </ul>
 </div>
-<div class="first"></div>
 <div class="login-wrapper">
     <h2>Login</h2>
-    <form method="post" action="서버의url" id="login-form">
-        <input type="text" name="userName" placeholder="Email">
-        <input type="password" name="userPassword" placeholder="Password">
+    <div>
+    <label> ID <input id="id" type="text" placeholder="Email"> </label>
+        </div>
+    <div>
+        <label> PW <input id="pw" type="text" placeholder="Password">
+        </label>
+    </div>
         <label for="remember-check">
             <input type="checkbox" id="remember-check"> Remember ID
         </label>
-        <input type="submit" value="Login">
+    <div>
+        <input type="submit" value="Login" onclick="login()">
         <input type="button" value="Create ID" onclick="moveJoin()">
-    </form>
+    </div>
 </div>
-<div class="third"></div>
 </body>
 </html>
